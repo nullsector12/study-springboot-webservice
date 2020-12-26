@@ -1,4 +1,4 @@
-package com.nullsector.boot.web.Dto;
+package com.nullsector.boot.web.dto;
 
 
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.nullsector.boot.web.Dto;
+package com.nullsector.boot.web.dto;
 
 import com.nullsector.boot.domain.posts.Posts;
 import lombok.Getter;

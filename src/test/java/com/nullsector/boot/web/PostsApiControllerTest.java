@@ -3,8 +3,8 @@ package com.nullsector.boot.web;
 
 import com.nullsector.boot.domain.posts.Posts;
 import com.nullsector.boot.domain.posts.PostsRepository;
-import com.nullsector.boot.web.Dto.PostsSaveRequestDto;
-import com.nullsector.boot.web.Dto.PostsUpdateRequestDto;
+import com.nullsector.boot.web.dto.PostsSaveRequestDto;
+import com.nullsector.boot.web.dto.PostsUpdateRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -3,10 +3,10 @@ package com.nullsector.boot.service.posts;
 
 import com.nullsector.boot.domain.posts.Posts;
 import com.nullsector.boot.domain.posts.PostsRepository;
-import com.nullsector.boot.web.Dto.PostsListResponseDto;
-import com.nullsector.boot.web.Dto.PostsResponseDto;
-import com.nullsector.boot.web.Dto.PostsSaveRequestDto;
-import com.nullsector.boot.web.Dto.PostsUpdateRequestDto;
+import com.nullsector.boot.web.dto.PostsListResponseDto;
+import com.nullsector.boot.web.dto.PostsResponseDto;
+import com.nullsector.boot.web.dto.PostsSaveRequestDto;
+import com.nullsector.boot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

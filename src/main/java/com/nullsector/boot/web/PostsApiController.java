@@ -2,9 +2,9 @@ package com.nullsector.boot.web;
 
 
 import com.nullsector.boot.service.posts.PostsService;
-import com.nullsector.boot.web.Dto.PostsResponseDto;
-import com.nullsector.boot.web.Dto.PostsSaveRequestDto;
-import com.nullsector.boot.web.Dto.PostsUpdateRequestDto;
+import com.nullsector.boot.web.dto.PostsResponseDto;
+import com.nullsector.boot.web.dto.PostsSaveRequestDto;
+import com.nullsector.boot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
