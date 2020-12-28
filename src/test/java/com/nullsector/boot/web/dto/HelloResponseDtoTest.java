@@ -10,7 +10,7 @@ public class HelloResponseDtoTest {
     public void lombokTest() {
 
         // given
-        String name = "김승연";
+        String name = "hello";
         int amount = 1000;
 
         // when

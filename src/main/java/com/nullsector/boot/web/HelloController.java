@@ -30,6 +30,10 @@ public class HelloController {
     * @parameter :
     * @comment :
     **/
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello";
+    }
 
     // HTTP Method 인 GET 의 요청을 받을 수 있는 API 만들어줌
     // 예전엔 @RequestMapping(method = RequestMethod.GET)으로 사용하던 것

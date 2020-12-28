@@ -14,8 +14,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 * @version : 1.0.0
 * @see:
 **/
-
-@EnableJpaAuditing // JPA Auditing 활성화 어노테이션
+// Test를 위해 SpringBootApplication과 분리함 -> config 패키지의 JpaConfig로 이동
+//@EnableJpaAuditing // JPA Auditing 활성화 어노테이션
 @SpringBootApplication
 public class Application {
     public static void main(String[] args){
