@@ -47,7 +47,7 @@ public class Posts extends BaseTimeEntity {
     private Long id;
 
     /** Column
-     * 테이블의 칼럼을 나타맴, 굳이 선언ㅇ하지 않더라도 해당 클래스의 필드는 모두 칼럼이 되긴함
+     * 테이블의 칼럼을 나타맴, 굳이 선언하지 않더라도 해당 클래스의 필드는 모두 칼럼이 되긴함
      * 사용하는 이유 : 기본값 외에 추가로 변경이 필요한 옵션이 있을 때 사용
      * 문자열의 경우 VARCHAR(255)가 기본값인데, 사이즈를 500으로 늘리고 싶거나(ex:title),
      * 타입을 TEXT 로 변경하고 싶거나(ex:content)등의 경우
