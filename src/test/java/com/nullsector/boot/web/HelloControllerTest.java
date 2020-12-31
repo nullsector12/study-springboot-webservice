@@ -1,14 +1,14 @@
 package com.nullsector.boot.web;
 
 import com.nullsector.boot.config.auth.SecurityConfig;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.security.test.context.support.WithMockUser;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.hamcrest.Matchers.is;
@@ -28,7 +28,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 // 테스트를 진행할 때 JUnit 에 내장된 실행자 외에 다른 실행자를 실행
 // 여기서는 SpringRunner 라는 스프링 실행자 실행
 // 즉, 스프링 부트 테스트와 JUnit 사이의 연결자 역할
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 // 여러 스프링 테스트 어노테이션 중, Web(Spring MVC)에 집중할 수 있는 어노테이션
 // 선언할 경우 @Controller, @ControllerAdvice 등을 사용 가능
 // 여기서는 컨트롤러만 사용하기 때문에 선언함
