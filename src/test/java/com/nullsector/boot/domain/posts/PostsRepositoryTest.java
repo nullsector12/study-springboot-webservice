@@ -48,6 +48,7 @@ public class PostsRepositoryTest {
     }
 
     // 계속 밀리초에서 문제 발생해서 일단 중지
+    // 2020. 12. 31 수정 완료 ( isEqualTo -> isAfter 로 변경)
     @Test
     public void uploadBaseTimeEntity() {
         // given
