@@ -6,5 +6,7 @@
 aplication-oauth.properties
 aplication-google.properties
 
+/build/
+/out/
 build
 out
