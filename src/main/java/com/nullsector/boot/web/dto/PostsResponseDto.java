@@ -21,6 +21,8 @@ public class PostsResponseDto {
     private String content;
     private String author;
 
+    // github 연동 테스트
+
     public PostsResponseDto(Posts entity){
         this.id = entity.getId();
         this.title = entity.getTitle();
